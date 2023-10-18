@@ -1,0 +1,37 @@
+.footer {
+  &__content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+    padding: 25px;
+  }
+  &__ul {
+    margin-top: 25px;
+    img {
+      cursor: pointer;
+    }
+  }
+  &__ul-item {
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+    list-style: none;
+  }
+  &__end-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+    p {
+      font-size: 12px;
+      color: #aaaaaa;
+      flex: 0 1 62%;
+    }
+  }
+  &__end {
+    padding-bottom: 30px;
+  }
+  &__end img {
+    display: block;
+  }
+}

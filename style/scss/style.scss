@@ -1,0 +1,39 @@
+@import "header.scss";
+@import "peaceful.scss";
+@import "shopping-masterCard";
+@import "footer.scss";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+    padding: 10px;
+  }
+
+  .container-wrapper__btn {
+    margin: 35px 0 15px 29%;
+  }
+  .footer__end-container{
+    justify-content: center;
+  }
+}
