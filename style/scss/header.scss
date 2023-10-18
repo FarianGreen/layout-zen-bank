@@ -14,10 +14,12 @@
   }
 }
 .menu {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  list-style: none;
+  &__ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+  }
 
   &__item {
     cursor: pointer;
@@ -27,7 +29,7 @@
     background-color: #adadad;
     border-radius: 14px;
   }
-  &__button{
+  &__button {
     border-radius: 14px;
     border: 1px solid black;
   }

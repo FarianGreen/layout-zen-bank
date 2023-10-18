@@ -17,6 +17,9 @@
     }
   }
 }
+.centralize {
+  text-align: center;
+}
 .container-wrapper {
   &__btn {
     border: 1px solid black;
@@ -52,7 +55,7 @@
     height: 100px;
   }
 }
-.lets-begin {
+.play-icons {
   display: flex;
   align-items: center;
   gap: 3px;
